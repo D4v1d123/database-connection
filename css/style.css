@@ -1,0 +1,45 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.button {
+    background-color: #27bb8b;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.5% 4%;
+    margin: 0 3%;
+}
+
+.button:hover {
+    background-color: #4d4099;
+    color: white;
+    border: 1px solid #4d4099;
+    transition-duration: 0.5s;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10rem);
+    display: flex;
+    justify-content: center;
+    margin: 20% 30%;
+    padding: 2%;
+    border-radius: 0.5rem;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10rem);
+    color: white;
+    position: absolute;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-top: 8%;
+    padding: 1% 0;
+}
